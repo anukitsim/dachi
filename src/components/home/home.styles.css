@@ -1,58 +1,119 @@
 body {
-    background-color: #dbdbdbe2;
-  }
+  background-color: #DBDBDBE2;
+}
+
+.home-container {
+  color: #646060;
+  margin-top: 48px;
+  margin-left: 56px;
+  letter-spacing: 0px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
   
-  .home-container {
-    color: #646060;
-    margin-top: 128px;
-    margin-left: 136px;
-    letter-spacing: 0px;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-  }
+}
+
+.info-links {
+  color: #afafaf;
+  margin-top: 8px;
+  margin-left: 0;
+  margin-top: 0;
+}
+
+.title {
+  margin-left: 40px;
+  margin-bottom: 0;
+  list-style: none;
   
-  .info-links {
-    color: #afafaf;
-    margin-top: 8px;
-    margin-left: 0;
-    margin-top: 0;
-    
-    
-  }
-  
-  .title {
-    color: #646060;
-    font-size: 26px;
-    margin-left: 38px;
-    margin-bottom: 0;
-  }
-  
-  li {
-    font-size: 20px;
-    letter-spacing: 0px;
-    padding-top: 3px;
-    
+}
+
+.title-link {
+  color: #646060;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+li {
+  font-size: 15px;
+  letter-spacing: 0px;
+  padding-top: 3px;
+}
+
+.menu-button {
+  display: none; /* hide menu button by default on desktop */
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: #DBDBDBE2;
   }
 
-  @media screen and (max-width: 768px) {
-    .home-container {
-      margin-top: 64px; 
-      margin-left: 16px; 
-      margin-bottom: 0;
-    }
-  
-    .title {
-      font-size: 20px; 
-      margin-left: 16px; 
-      margin-bottom: 0;
-      margin-left: 38px;
-    }
-  
-    li {
-      font-size: 16px; 
-      padding-top: 0; 
-      padding-top: 3px;
-    }
+  .home-container {
+    margin: 0;
+    padding-top: 6px;
+   
   }
-  
+
+  .title {
+    font-size: 26px; /* set font size for title on mobile */
+    margin-left: 4px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    flex: 0 0 auto;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 8px; /* add margin bottom for spacing on mobile */
+  }
+
+  .title + ul {
+    margin-top: 0; /* Add margin top to align the links with the title */
+    padding-left: 0; /* Remove padding left from the ul element */
+    list-style: none; /* Remove default list style */
+    margin-left: 6px;
+    margin-top: 45px;
+  }
+
+  li {
+    font-size: 18px; /* set font size for li on mobile */
+    padding-top: 3px;
+    align-self: flex-start;
+  }
+
+  .menu-button {
+    display: block; 
+    position: fixed;
+    top: 67px;
+    
+    z-index: 9999;
+    cursor: pointer;
+    background-color: transparent; /* Set background color to transparent */
+    border: none; /* Remove border */
+    color: #646060; /* Set text color to match links */
+    font-size: 20px; /* Set font size to match links */
+    text-decoration: none; /* Remove underline */
+    
+    cursor: pointer;
+  }
+
+  .info-links {
+    display: none; /* hide info-links by default on mobile */
+  }
+
+  .info-links.show {
+    display: block; /* show info-links when menu button is clicked on mobile */
+  }
+
+  .project-links {
+    display: none; /* hide project links by default on mobile */
+  }
+
+  .project-links.show {
+    display: block; /* show project links when menu button is clicked on mobile */
+    margin-top: 0; /* Add margin top to align the project links with the title */
+    padding-left: 0; /* Remove padding left from the ul element */
+    list-style: none; /* Remove default list style */
+    margin-left: 6px;
+  }
+}
