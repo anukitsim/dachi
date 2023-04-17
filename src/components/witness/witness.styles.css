@@ -1,0 +1,69 @@
+.witness-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+  margin: -302px 0 0 170px;
+  margin-bottom: 45px;
+}
+
+
+
+.witness-texts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: calc(100% - 50px);
+  /* line-height: 2; */
+  letter-spacing: 0px;
+  padding-right: 7px;
+}
+
+.witness-text1 {
+  margin-top: 15px;
+  font-size: 15px;
+  font-weight: normal;
+  width: 100%;
+}
+
+.witness-text2 {
+  margin-top: 12px;
+  width: 100%;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 1.5;
+}
+
+.video-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video{
+  margin-left: -20px;
+  margin-top: 15px;
+}
+
+
+
+
+.video-caption {
+  margin: 5px 0 0;
+  text-align: center;
+  font-size: 12px;
+  font-weight: normal;
+  align-self: flex-end;
+  margin-right: 32px;
+}
+
+.video-caption2 {
+  margin: 0;
+  text-align: center;
+  font-size: 12px;
+  font-weight: normal;
+  align-self: flex-end;
+  margin-right: 32px;
+  
+}
+

@@ -1,16 +1,17 @@
 body {
   background-color: #DBDBDBE2;
+  overflow-x: hidden;
+  
 }
 
 .home-container {
-  color: #646060;
-  margin-top: 48px;
-  margin-left: 56px;
-  letter-spacing: 0px;
   display: flex;
-  align-items: flex-start;
   flex-direction: column;
-  
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px; /* Adds spacing between child elements */
+  padding: 48px 0 0 56px; /* Sets padding instead of margin */
+  max-width: 100%;
 }
 
 .info-links {
@@ -20,23 +21,58 @@ body {
   margin-top: 0;
 }
 
+.info-link{
+  color: #afafaf;
+  text-decoration: none;
+  display: inline-block; /* Set display to inline-block to align links horizontally */
+  vertical-align: top; /* Align links from the top */
+  margin-right: 10px; /* Add margin between links */
+  white-space: nowrap; /* Prevent links from wrapping to next line */
+}
+
 .title {
-  margin-left: 40px;
-  margin-bottom: 0;
-  list-style: none;
-  
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 20px;
+  font-weight: normal;
 }
 
 .title-link {
   color: #646060;
-  font-size: 20px;
   text-decoration: none;
 }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+
+
+.project-link{
+  color: #646060;
+  text-decoration: none;
+  display: inline-block; 
+  vertical-align: top;  
+  margin-right: 10px; 
+  white-space: nowrap; 
+  text-align: center;
+  
+}
+
+.project-links{
+  text-align: end;
+}
+
+
 
 li {
   font-size: 15px;
   letter-spacing: 0px;
-  padding-top: 3px;
+  padding-top: 1.5px;
 }
 
 .menu-button {
@@ -49,9 +85,7 @@ li {
   }
 
   .home-container {
-    margin: 0;
-    padding-top: 6px;
-   
+    padding: 6px 0 0 4px;
   }
 
   .title {
@@ -82,10 +116,13 @@ li {
   }
 
   .menu-button {
-    display: block; 
+    display: block;
     position: fixed;
     top: 67px;
+    font-weight: normal;
     
+
+    font-family: 'M PLUS 1', sans-serif;
     z-index: 9999;
     cursor: pointer;
     background-color: transparent; /* Set background color to transparent */
@@ -107,6 +144,7 @@ li {
 
   .project-links {
     display: none; /* hide project links by default on mobile */
+    text-align: start;
   }
 
   .project-links.show {
