@@ -67,16 +67,18 @@ ul {
   text-align: end;
 }
 
-
-
 li {
   font-size: 15px;
   letter-spacing: 0px;
   padding-top: 1.5px;
 }
 
+
+
+
 .menu-button {
   display: none; /* hide menu button by default on desktop */
+  
 }
 
 @media screen and (max-width: 768px) {
@@ -90,7 +92,8 @@ li {
 
   .title {
     font-size: 26px; /* set font size for title on mobile */
-    margin-left: 4px;
+    margin-left: 2px;
+    margin-right: 5px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -114,28 +117,32 @@ li {
     padding-top: 3px;
     align-self: flex-start;
   }
+  
 
   .menu-button {
     display: block;
-    position: fixed;
-    top: 67px;
+    top: 50px;
     font-weight: normal;
     
 
     font-family: 'M PLUS 1', sans-serif;
     z-index: 9999;
-    cursor: pointer;
+    
     background-color: transparent; /* Set background color to transparent */
     border: none; /* Remove border */
     color: #646060; /* Set text color to match links */
     font-size: 20px; /* Set font size to match links */
     text-decoration: none; /* Remove underline */
     
-    cursor: pointer;
+ 
   }
+  
 
   .info-links {
     display: none; /* hide info-links by default on mobile */
+    margin-left: 6px;
+    margin-bottom: 10px;
+    margin-top: 10px;
   }
 
   .info-links.show {

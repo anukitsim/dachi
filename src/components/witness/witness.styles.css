@@ -54,7 +54,7 @@
   font-size: 12px;
   font-weight: normal;
   align-self: flex-end;
-  margin-right: 32px;
+  margin-right: 35.5px;
 }
 
 .video-caption2 {
@@ -63,7 +63,58 @@
   font-size: 12px;
   font-weight: normal;
   align-self: flex-end;
-  margin-right: 32px;
+  margin-right: 35.5px;
   
 }
 
+@media (max-width: 768px) {
+
+  body {
+    background-color: #DBDBDBE2;
+  }
+  .witness-container {
+    margin: 0;
+    margin-bottom: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+  }
+
+  .witness-texts {
+    padding-right: 0;
+    max-width: 100%;
+  }
+
+  .video {
+    margin-left: 0;
+    width: 100%;
+    height: 56.25vw; /* 16:9 aspect ratio */
+  }
+
+  .video-caption {
+    font-size: 14px;
+    margin-right: 0;
+  }
+
+  .video-caption2 {
+    font-size: 14px;
+    margin-right: 0;
+  }
+  
+  .title {
+    font-size: 26px; /* set font size for title on mobile */
+    margin-left: 4px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    flex: 0 0 auto;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 8px; /* add margin bottom for spacing on mobile */
+  }
+
+ 
+  
+
+}

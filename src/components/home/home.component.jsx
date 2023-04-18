@@ -13,23 +13,25 @@ const Home = () => {
 
   return (
     <div className="home-container">
-      <div className="home-content">
-        
-      </div>
      
-      <h1 className="title">
+     <h1 className="title">
         <Link to="/" className="title-link">
           DACHI-GIORGI GARUCHAVA
         </Link>
       </h1>
-      <ul className={isMobileMenuVisible ? 'info-links show' : 'info-links'}>
-        <li><Link to='/contact' className='info-link'>Contact</Link></li>
-        <li><Link to='/cv' className='info-link'>CV</Link></li>
-      </ul>
+
+
+      
+      
       <div className={isMobileMenuVisible ? 'mobile-menu visible' : 'mobile-menu'}>
         <button className="menu-button" onClick={toggleMobileMenu}>
           Menu
         </button>
+        <ul className={isMobileMenuVisible ? 'info-links show' : 'info-links'}>
+      
+        <li><Link to='/contact' className='info-link'>Contact</Link></li>
+        <li><Link to='/cv' className='info-link'>CV</Link></li>
+      </ul>
         <ul className={isMobileMenuVisible ? 'project-links show' : 'project-links'}>
           <li><Link to='/thewitness' className='project-link'>The Witness</Link></li>
           <li><Link to='/invasive-modification' className='project-link'>Invasive Modification</Link></li>
