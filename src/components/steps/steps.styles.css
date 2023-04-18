@@ -2,7 +2,7 @@ body {
     background-color: #DBDBDBE2;
 }
 
-.video-container {
+.steps-container {
     position: relative;
     max-width: 100%;
     margin: -298px 0 0 175px;
@@ -42,12 +42,12 @@ body {
         background-color: #DBDBDBE2;
     }
 
-    .video-container {
+    .steps-container {
         margin: 0;
         margin-bottom: 50px;
     }
 
-    .video {
+    .video-steps {
         margin-left: 0;
         width: 100%;
     }

@@ -5,7 +5,7 @@ const Steps = () => {
   const isMobile = window.innerWidth <= 768; // check if screen size is <= 768px
 
   return (
-    <div className="video-container">
+    <div className="steps-container">
       {isMobile ? (
         <ReactPlayer
           url="https://vimeo.com/818803846"
@@ -18,7 +18,7 @@ const Steps = () => {
       ) : (
         <ReactPlayer
           url="https://vimeo.com/818803846"
-          className="video"
+          className="video-steps"
           controls
           volume={1}
           width="85vw"
