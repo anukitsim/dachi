@@ -1,0 +1,83 @@
+body {
+    background-color: #DBDBDBE2;
+}
+
+.video-container {
+    position: relative;
+    max-width: 100%;
+    margin: -298px 0 0 175px;
+    margin-bottom: 45px;
+}
+
+.caption-container {
+    position: absolute;
+    bottom: -35px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.steps-caption1 {
+    font-size: 12px;
+    font-weight: normal;
+    padding-left: 18px;
+    color: #646060;
+}
+
+.steps-caption2 {
+    font-size: 12px;
+    font-weight: normal;
+    padding-right: 36px;
+    color: #646060;
+}
+
+.music-link {
+    text-decoration: none;
+    color: #646060;
+}
+
+@media (max-width: 768px) {
+
+    body {
+        background-color: #DBDBDBE2;
+    }
+
+    .video-container {
+        margin: 0;
+        margin-bottom: 50px;
+    }
+
+    .video {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .caption-container {
+        position: absolute;
+        bottom: -25px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .steps-caption1 {
+        font-size: 9px;
+        font-weight: normal;
+        padding-left: 10px;
+        color: #646060;
+    }
+
+    .steps-caption2 {
+        font-size: 9px;
+        font-weight: normal;
+        padding-right: 10px;
+        color: #646060;
+    }
+
+    .music-link {
+        text-decoration: none;
+        color: #646060;
+    }
+
+   
+}
