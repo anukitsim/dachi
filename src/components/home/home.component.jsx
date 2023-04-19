@@ -1,37 +1,39 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './home.styles.css';
-import { Link, Outlet} from 'react-router-dom';
+import { Link, Outlet, useLocation } from 'react-router-dom';
 
 const Home = () => {
   const [isMobileMenuVisible, setIsMobileMenuVisible] = useState(false);
+  const location = useLocation(); // import useLocation hook from react-router-dom
 
   const toggleMobileMenu = () => {
     setIsMobileMenuVisible(!isMobileMenuVisible);
   };
 
-
+  useEffect(() => {
+    const body = document.querySelector('body');
+    if (location.pathname === '/invasive-modification') {
+      body.classList.add('invasive-modification-body');
+    } else {
+      body.classList.remove('invasive-modification-body');
+    }
+  }, [location.pathname]);
 
   return (
     <div className="home-container">
-     
-     <h1 className="title">
+      <h1 className="title">
         <Link to="/" className="title-link">
           DACHI-GIORGI GARUCHAVA
         </Link>
       </h1>
-
-
-      
-      
       <div className={isMobileMenuVisible ? 'mobile-menu visible' : 'mobile-menu'}>
         <button className="menu-button" onClick={toggleMobileMenu}>
           Menu
         </button>
         <ul className={isMobileMenuVisible ? 'info-links show' : 'info-links'}>
-      
-        <li><Link to='/contact' className='info-link'>Contact</Link></li>
-        <li><Link to='/cv' className='info-link'>CV</Link></li>
-      </ul>
+          <li><Link to='/contact' className='info-link'>Contact</Link></li>
+          <li><Link to='/cv' className='info-link'>CV</Link></li>
+        </ul>
         <ul className={isMobileMenuVisible ? 'project-links show' : 'project-links'}>
           <li><Link to='/thewitness' className='project-link'>The Witness</Link></li>
           <li><Link to='/invasive-modification' className='project-link'>Invasive Modification</Link></li>
@@ -49,7 +51,6 @@ const Home = () => {
       </div>
       <Outlet />
     </div>
-
   );
 };
 

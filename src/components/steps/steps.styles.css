@@ -1,11 +1,9 @@
-body {
-    background-color: #DBDBDBE2;
-}
+
 
 .steps-container {
     position: relative;
     max-width: 100%;
-    margin: -298px 0 0 175px;
+    margin: -285px 0 0 165px;
     margin-bottom: 45px;
 }
 
@@ -20,8 +18,11 @@ body {
 .steps-caption1 {
     font-size: 12px;
     font-weight: normal;
-    padding-left: 18px;
+    padding-left: 35px;
     color: #646060;
+
+    
+    
 }
 
 .steps-caption2 {
@@ -29,55 +30,67 @@ body {
     font-weight: normal;
     padding-right: 36px;
     color: #646060;
+    
+    
 }
 
-.music-link {
+.music-link{
     text-decoration: none;
     color: #646060;
 }
 
-@media (max-width: 768px) {
 
-    body {
+
+
+    @media (max-width: 768px) {
+
+        body {
         background-color: #DBDBDBE2;
-    }
-
-    .steps-container {
+        margin-bottom: 30px;
+        }
+        .steps-container {
+        width: 100%;
         margin: 0;
         margin-bottom: 50px;
-    }
+        margin-left: -27px;
+        margin-top: 10px;
+        
+        }
+    
+    
+        .video-steps {
+            margin-left: 0;
+            width: 100% !important;
+            
+        }
 
-    .video-steps {
-        margin-left: 0;
-        width: 100%;
+        .caption-container {
+            position: absolute;
+            bottom: -25px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            
+            
+        }
+    
+        .steps-caption1 {
+            font-size: 9px;
+            font-weight: normal;
+            padding-left: 35px;
+            color: #646060;
+            
+        }
+    
+        .steps-caption2 {
+            font-size: 9px;
+            font-weight: normal;
+            padding-right: 35px;
+            color: #646060;
+        }
+        
+        .music-link{
+            text-decoration: none;
+            color: #646060;
+        }
     }
-
-    .caption-container {
-        position: absolute;
-        bottom: -25px;
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .steps-caption1 {
-        font-size: 9px;
-        font-weight: normal;
-        padding-left: 10px;
-        color: #646060;
-    }
-
-    .steps-caption2 {
-        font-size: 9px;
-        font-weight: normal;
-        padding-right: 10px;
-        color: #646060;
-    }
-
-    .music-link {
-        text-decoration: none;
-        color: #646060;
-    }
-
-   
-}
