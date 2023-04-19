@@ -3,22 +3,22 @@
 .steps-container {
     position: relative;
     max-width: 100%;
-    margin: -285px 0 0 165px;
+    margin: -17.813rem 0 0 10.313rem;
     margin-bottom: 45px;
 }
 
 .caption-container {
     position: absolute;
-    bottom: -35px;
+    bottom: -2.1rem;
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
 .steps-caption1 {
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: normal;
-    padding-left: 35px;
+    padding-left: 2.1rem;
     color: #646060;
 
     
@@ -26,9 +26,9 @@
 }
 
 .steps-caption2 {
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: normal;
-    padding-right: 36px;
+    padding-right: 2.25rem;
     color: #646060;
     
     
@@ -46,14 +46,14 @@
 
         body {
         background-color: #DBDBDBE2;
-        margin-bottom: 30px;
+        margin-bottom: 1.875rem;
         }
         .steps-container {
         width: 100%;
         margin: 0;
-        margin-bottom: 50px;
-        margin-left: -27px;
-        margin-top: 10px;
+        margin-bottom: 3.125rem;
+        margin-left: -1.688rem;
+        margin-top: 0.625rem;
         
         }
     
@@ -66,7 +66,7 @@
 
         .caption-container {
             position: absolute;
-            bottom: -25px;
+            bottom: -1.563rem;
             width: 100%;
             display: flex;
             justify-content: space-between;
@@ -75,17 +75,17 @@
         }
     
         .steps-caption1 {
-            font-size: 9px;
+            font-size: 0.563rem;
             font-weight: normal;
-            padding-left: 35px;
+            padding-left: 2.188rem;
             color: #646060;
             
         }
     
         .steps-caption2 {
-            font-size: 9px;
+            font-size: 0.563rem;
             font-weight: normal;
-            padding-right: 35px;
+            padding-right: 2.188rem;
             color: #646060;
         }
         

@@ -4,8 +4,8 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 8px; /* Adds spacing between child elements */
-  padding: 48px 0 0 56px; /* Sets padding instead of margin */
+  gap: 0.5rem; /* Adds spacing between child elements */
+  padding: 3rem 0 0 3.5rem; /* Sets padding instead of margin */
   max-width: 100%;
   overflow-x: hidden;
 }
@@ -17,7 +17,7 @@
 
 .info-links {
   color: #afafaf;
-  margin-top: 8px;
+  margin-top: 0.5rem;
   margin-left: 0;
   margin-top: 0;
 }
@@ -27,15 +27,15 @@
   text-decoration: none;
   display: inline-block; /* Set display to inline-block to align links horizontally */
   vertical-align: top; /* Align links from the top */
-  margin-right: 10px; /* Add margin between links */
+  margin-right: 0.625rem; /* Add margin between links */
   white-space: nowrap; /* Prevent links from wrapping to next line */
 }
 
 .title {
   display: flex;
   align-items: center;
-  gap: 8px;
-  font-size: 20px;
+  gap: 0.5rem;
+  font-size: 1.25rem;
   font-weight: normal;
 }
 
@@ -58,7 +58,7 @@ ul {
   text-decoration: none;
   display: inline-block; 
   vertical-align: top;  
-  margin-right: 10px; 
+  margin-right: 0.625rem; 
   white-space: nowrap; 
   text-align: center;
   
@@ -69,9 +69,9 @@ ul {
 }
 
 li {
-  font-size: 15px;
+  font-size: 0.938rem;
   letter-spacing: 0px;
-  padding-top: 1.5px;
+  padding-top: 0.090rem;
 }
 
 
@@ -81,6 +81,11 @@ li {
   display: none; /* hide menu button by default on desktop */
   
 }
+
+.current-page{
+  color:  #afafaf;
+}
+
 
 @media screen and (max-width: 768px) {
   body {

@@ -3,8 +3,8 @@
   flex-direction: column;
   align-items: center;
   max-width: 100%;
-  margin: -302px 0 0 170px;
-  margin-bottom: 45px;
+  margin: -18.875rem 0 0 10.625rem;
+  margin-bottom: 2rem;
   
 }
 
@@ -14,23 +14,23 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  max-width: calc(100% - 50px);
+  max-width: calc(100% - 3rem);
   /* line-height: 2; */
   letter-spacing: 0px;
-  padding-right: 7px;
+  padding-right: 0.5rem;
 }
 
 .witness-text1 {
-  margin-top: 15px;
-  font-size: 15px;
+  margin-top: 0.938rem;
+  font-size: 0.938rem;
   font-weight: normal;
   width: 100%;
 }
 
 .witness-text2 {
-  margin-top: 12px;
+  margin-top: 0.7rem;
   width: 100%;
-  font-size: 15px;
+  font-size: 0.938rem;
   font-weight: normal;
   line-height: 1.5;
 }
@@ -42,15 +42,15 @@
 }
 
 .video{
-  margin-left: -20px;
-  margin-top: 15px;
+  margin-left: -1.25rem;
+  margin-top:  0.938rem;
 }
 
 
 
 
 .video-caption {
-  margin: 5px 0 0;
+  margin: 0.3rem 0 0;
   text-align: center;
   font-size: 12px;
   font-weight: normal;

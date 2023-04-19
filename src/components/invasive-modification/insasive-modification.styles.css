@@ -5,8 +5,8 @@
   align-items: flex-start;
   max-width: 100%;
   min-height: 100vh;
-  margin-right: 20px;
-  padding-bottom: 40px; 
+  margin-right: 1.25rem;
+  padding-bottom: 2.5rem; 
 }
 
 .insasiveModification-header {
@@ -68,14 +68,17 @@
 .card-images{
   position: relative;
   width: 40%;
+  height: auto;
   top: 30rem;
   margin-top: 7.5rem;
+  object-fit: cover;
   /* margin-left: -4rem; */
   left: 15%;
   margin-right: auto;
   margin-bottom: 2rem;
   z-index: 1;
   padding-bottom: 50px;
+  width: 40%;
 }
 
 .card-text {
@@ -104,3 +107,80 @@
   line-height: 1.5;
   margin-bottom: 1rem;
 }
+
+/* For screens up to 768px wide */
+@media (max-width: 768px) {
+
+  .insasiveModification-container {
+    margin-right: 0;
+  }
+  
+  .insasiveModification-header {
+    font-size: 1rem;
+    width: 100%;
+    text-align: start;
+    margin: 2rem 0;
+  }
+  
+  .img-container {
+    margin-top: 2rem;
+    margin-left: 0;
+  }
+  
+  .img1 {
+    top: -55px;
+    left: 40%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 320px;
+  }
+  
+  .video-text {
+    position: static;
+    width: 100%;
+    text-align: end;
+    font-size: 1rem;
+    margin-top: -1.3rem;
+    margin-right: 1.2rem;
+    padding-bottom: 4rem;
+  }
+  
+  .insasiveModification-video {
+    position: static;
+    margin: 2rem auto;
+    max-width: 320px;
+    margin-left: 55%;
+    margin-top: 50%;
+  }
+  
+  .card-images {
+    position: static;
+    width: 100%;
+    max-width: 320px;
+    margin: 2rem auto;
+    
+    margin-top: -18rem;
+    padding-bottom: 0;
+  }
+  
+  .card-text {
+    position: static;
+    margin-left: 1.8rem;
+    margin-top: -1rem;
+    text-align: start;
+    width: 100%;
+  }
+  
+  .line {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .name {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+  
+}
+
