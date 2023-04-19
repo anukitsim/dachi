@@ -5,8 +5,9 @@
   align-items: flex-start;
   max-width: 100%;
   min-height: 100vh;
-  margin-right: 1.25rem;
+  /* margin-right: 1.25rem; */
   padding-bottom: 2.5rem; 
+  max-width: 100%;
 }
 
 .insasiveModification-header {
@@ -15,6 +16,7 @@
   color: #484848;
   margin-top: -18.1rem;
   margin-left: 13rem;
+  font-weight: normal;
 }
 
 .img-container {
@@ -38,14 +40,15 @@
 
 .img1 {
   position: absolute;
-  top: -8px;
-  left: 10.5rem;
+  top: -2%;
+  left: 15%;
   width: 70%;
   height: auto;
   z-index: 0;
 }
 
 .video-text{
+  font-weight: normal;
   font-size: 1.25rem;
   color: #484848;
   position: absolute;
