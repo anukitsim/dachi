@@ -21,6 +21,15 @@ const Home = () => {
     }
   }, [location.pathname]);
 
+  // useEffect(() => {
+  //   const body = document.querySelector('body');
+  //   if(location.pathname === '/kidsofthepinktrash'){
+  //     body.classList.add('kidsofthepinktrash-body');
+  //   }else {
+  //     body.classList.remove('kidsofthepinktrash-body');
+  //   }
+  // },  [location.pathname])
+
   return (
     <div className="home-container">
       <h1 className="title">

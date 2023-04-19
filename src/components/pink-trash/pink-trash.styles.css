@@ -1,0 +1,48 @@
+.pink-trash{
+    width: 120%;
+    height: auto;
+    margin-top: -33%;
+    margin-left: -15%;
+    pointer-events: none;
+}
+
+@media only screen and (min-width: 1366px) {
+    .pink-trash{
+        width: 120%;
+        height: auto;
+        margin-top: -35%;
+        margin-left: -15%;
+        pointer-events: none;
+    }
+    
+  }
+
+  @media only screen and (min-width: 1920px) {
+    .pink-trash{
+        width: 120%;
+        height: auto;
+       margin-top: -28%;
+        margin-left: -15%;
+        pointer-events: none;
+    }
+  }
+
+  @media only screen and (min-width: 1280px) {
+    .pink-trash{
+        width: 120%;
+        height: auto;
+       margin-top: -40%;
+        margin-left: -15%;
+        pointer-events: none;
+    }
+  }
+
+  @media only screen and (min-width: 1440px) {
+    .pink-trash{
+        width: 120%;
+        height: auto;
+        margin-top: -34%;
+        margin-left: -15%;
+        pointer-events: none;
+    }
+  }

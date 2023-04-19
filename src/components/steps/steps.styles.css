@@ -18,7 +18,7 @@
 .steps-caption1 {
     font-size: 0.75rem;
     font-weight: normal;
-    padding-left: 2.1rem;
+    padding-left: 2.7rem;
     color: #646060;
 
     
@@ -28,7 +28,7 @@
 .steps-caption2 {
     font-size: 0.75rem;
     font-weight: normal;
-    padding-right: 2.25rem;
+    padding-right: 2.7rem;
     color: #646060;
     
     
@@ -94,3 +94,20 @@
             color: #646060;
         }
     }
+
+    @media only screen and (min-width: 1920px) {
+        .steps-caption1 {
+            font-size: 0.563rem;
+            font-weight: normal;
+            padding-left: 3rem;
+            color: #646060;
+            
+        }
+    
+        .steps-caption2 {
+            font-size: 0.563rem;
+            font-weight: normal;
+            padding-right: 3rem;
+            color: #646060;
+        }
+      }

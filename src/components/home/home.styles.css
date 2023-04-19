@@ -11,9 +11,21 @@
 }
 
 .invasive-modification-body {
-  background-color: black;
+  background-color: #080808;
 }
 
+/* .kidsofthepinktrash-body{
+  background-image: url('../../imgs/march32.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  overflow: auto;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+} */
 
 .info-links {
   color: #afafaf;
@@ -168,3 +180,5 @@ li {
     margin-left: 6px;
   }
 }
+
+

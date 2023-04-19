@@ -1,40 +1,37 @@
 import { useState, useRef } from 'react';
 import './insasive-modification.styles.css';
 import img1 from '../../imgs/1.jpg';
-// import cardImage4 from '../../imgs/card4.png';
 import ReactPlayer from 'react-player';
 import cardImage1 from '../../imgs/card1.jpg';
 import cardImage2 from '../../imgs/card2.jpg';
 import cardImage3 from '../../imgs/card3.jpg';
+import cardImage4 from '../../imgs/card4.jpg';
+import cardImage5 from '../../imgs/card5.jpg';
+import cardImage6 from '../../imgs/card6.jpg';
+import cardImage7 from '../../imgs/card7.jpg';
+import cardImage8 from '../../imgs/card8.jpg';
+import cardImage9 from '../../imgs/card9.jpg';
 
 const InsasiveModification = () => {
   const [currentImage, setCurrentImage] = useState(cardImage1);
   const [isPlaying, setIsPlaying] = useState(true);
+  const [activeIndex, setActiveIndex] = useState(0);
   const playerRef = useRef(null);
 
-  const handleClick = () => {
-    const images = [cardImage1, cardImage2, cardImage3];
-    const currentIndex = images.indexOf(currentImage);
-    setCurrentImage(images[(currentIndex + 1) % images.length]);
+  const images = [cardImage1, cardImage2, cardImage3, cardImage4, cardImage5, cardImage6, cardImage7, cardImage8, cardImage9];
+
+  const handleClick = (index) => {
+    setCurrentImage(images[index]);
+    setActiveIndex(index);
   };
 
   const handlePlay = () => {
     setIsPlaying(true);
   };
 
-  const handlePause = () => {
-    setIsPlaying(false);
-  };
+  
 
-  const handleVideoClick = () => {
-    if (isPlaying) {
-      playerRef.current.getInternalPlayer().pause();
-      setIsPlaying(false);
-    } else {
-      playerRef.current.getInternalPlayer().play();
-      setIsPlaying(true);
-    }
-  };
+
 
   return (
     <div className='insasiveModification-container'>
@@ -54,36 +51,49 @@ const InsasiveModification = () => {
             className='insasiveModification-video'
             controls={false}
             volume={0}
-            onPlay={handlePlay}
-            onPause={handlePause}
             playing={isPlaying}
             loop={true}
-            onClick={handleVideoClick}
+            width='100vw'
+            height='100vh'
+          
           />
-          <img
-            src={currentImage}
-            alt='img1'
-            className='card-images'
-            onClick={handleClick}
-          />
-          <div className='card-text'>
-            <div className='line-container'>
-              <div className='name'>Photography:</div>
-              <div className='category'>
-                Giorgi Nakashidze<br />
-                Ika Khargelia<br />
-                Luka Pantskhava
+          <div className='card-images-container'>
+            <img
+              src={currentImage}
+              alt='img1'
+              className='card-images'
+              onClick={() => handleClick(activeIndex === images.length - 1 ? 0 : activeIndex + 1)}
+            />
+            <div className='carousel-bullets'>
+              {images.map((image, index) => (
+                <button
+                  key={index}
+                  className={`carousel-bullet ${
+                    index === activeIndex ? 'active-bullet' : ''
+                  }`}
+                  onClick={() => handleClick(index)}
+                />
+              ))}
+            </div>
+            <div className='card-text'>
+              <div className='line-container'>
+                <div className='name'>Photography:</div>
+                <div className='category'>
+                  Giorgi Nakashidze<br />
+                  Ika Khargelia<br />
+                  Luka Pantskhava
+                </div>
               </div>
-            </div>
-            <div className='line-container'>
-              <div className='name'>Prop Assistant:</div>
-              <div className='category'>Polina Zhuravkova</div>
-            </div>
-            <div className='line-container'>
-              <div className='name'>Invasive Modification:</div>
-              <div className='category'>
-                Nicolas Grigorian<br />
-                Nina Ivanovna
+              <div className='line-container'>
+                <div className='name'>Prop Assistant:</div>
+                <div className='category'>Polina Zhuravkova</div>
+              </div>
+              <div className='line-container'>
+                <div className='name'>Invasive Modification:</div>
+                <div className='category'>
+                  Nicolas Grigorian<br />
+                  Nina Ivanovna
+                </div>
               </div>
             </div>
           </div>
