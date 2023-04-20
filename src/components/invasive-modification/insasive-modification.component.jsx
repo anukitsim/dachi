@@ -25,9 +25,7 @@ const InsasiveModification = () => {
     setActiveIndex(index);
   };
 
-  const handlePlay = () => {
-    setIsPlaying(true);
-  };
+ 
 
   
 
