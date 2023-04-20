@@ -1,5 +1,4 @@
 .broken-city-container{
-    max-width: 100%;
     margin-right: 1.5rem;
  }
  
@@ -196,5 +195,104 @@
        margin-top: 1rem;
      }
    }
+
+   @media (max-width: 1024px) {
+    .text1 {
+      margin-left: 10%;
+      width: 80%;
+    }
+  
+    .brokenimg1 {
+      width: 100%;
+      margin-left: 0;
+    }
+  
+    .text2 {
+      width: 50%;
+      margin-right: 0;
+      margin-left: 25%;
+      align-items: flex-start;
+    }
+  
+    .broken-city-header2 {
+      margin-left: 0;
+      margin-top: 2rem;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .text3-subtext {
+      width: 100%;
+    }
+  }
+
+  
+  @media only screen and (max-width: 768px) {
+    .broken-city-container {
+    margin-right: 0;
+    padding: 0 1rem;
+    }
+    
+    .text1 {
+    margin-left: 0;
+    margin-top: 2rem;
+    width: 100%;
+    }
+    
+    .text1-subtext {
+    width: 100%;
+    }
+    
+    .brokenimg1 {
+    margin-left: 0;
+    margin-top: 2rem;
+    width: 100%;
+    }
+    
+    .text2 {
+    width: 100%;
+    align-items: flex-start;
+    margin-right: -50%;
+    }
+    
+    .broken-city-header2 {
+    margin-left: 20%;
+    margin-top: 2rem;
+    width: 100%;
+    }
+    
+    .text2-subtext {
+    width: 100%;
+    }
+    
+    .brokenimg3 {
+    width: 100%;
+    margin-top: 2rem;
+    }
+    
+    .brokenimg2 {
+    width: 100%;
+    margin-top: 2rem;
+    }
+    
+    .text3 {
+    width: 100%;
+    margin-top: 2rem;
+    }
+    
+    .broken-city-header3 {
+    width: 100%;
+    margin-top: 2rem;
+    }
+    
+    .text3-subtext {
+    width: 100%;
+    }
+    
+    .brojenimg4 {
+    width: 100%;
+    margin-top: 2rem;
+    }
+    }
    
  
