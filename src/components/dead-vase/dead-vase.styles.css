@@ -1,0 +1,90 @@
+.vase-container{
+    pointer-events: none;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 1rem;
+}
+
+.vase1-container{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-top: -23.5%;
+    margin-left: 14%;
+    
+}
+
+
+
+.vase-text1{
+    color: #484848;
+    font-weight: normal;
+    font-size: 1rem;
+    width: 95%;
+    margin-top: -129.9%;
+    margin-left: 107%;
+}
+
+.vase2-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 107%;
+    margin-top: -95.5%;
+    z-index: 0;
+}
+
+.vase3-container{
+    display: flex;
+    flex-direction: column;
+    width: 160%;
+    margin-left: 32%;
+    margin-top: -90%;
+    z-index: 1;
+}
+
+.vase2-container{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.vase-text2{
+    color: #484848;
+    font-weight: normal;
+    font-size: 1rem;
+    width: 55%;
+    margin-top: -111%;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .vase1-container {
+      width: 100%;
+      margin-top: 0;
+      margin-left: 0.6%;
+    }
+    
+    .vase-text1 {
+      margin-top: 0;
+      margin-left: 0;
+    }
+    
+    .vase2-container {
+      margin-left: 0;
+      margin-top: 1rem;
+    }
+    
+    .vase3-container {
+      width: 100%;
+      margin-left: 0;
+      margin-top: 1rem;
+    }
+    
+    .vase-text2 {
+      width: 100%;
+      margin-top: 1rem;
+    }
+  }
+

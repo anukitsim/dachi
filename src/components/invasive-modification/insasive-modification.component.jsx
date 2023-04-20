@@ -14,9 +14,11 @@ import cardImage9 from '../../imgs/card9.jpg';
 
 const InsasiveModification = () => {
   const [currentImage, setCurrentImage] = useState(cardImage1);
-  const [isPlaying, setIsPlaying] = useState(true);
+  
   const [activeIndex, setActiveIndex] = useState(0);
   const playerRef = useRef(null);
+
+  const isPlaying = true;
 
   const images = [cardImage1, cardImage2, cardImage3, cardImage4, cardImage5, cardImage6, cardImage7, cardImage8, cardImage9];
 

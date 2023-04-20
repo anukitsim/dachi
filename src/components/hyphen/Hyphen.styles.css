@@ -2,6 +2,7 @@
     max-width: 100%;
     min-height: 100vh;
     padding-bottom: 2.5rem; 
+    pointer-events: none;
   }
   
   .hyphen-img-container {
