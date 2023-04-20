@@ -1,5 +1,6 @@
 .broken-city-container{
     margin-right: 1.5rem;
+    pointer-events: none;
  }
  
  .text1{

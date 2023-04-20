@@ -1,0 +1,35 @@
+.hyphen-container {
+    max-width: 100%;
+    min-height: 100vh;
+    padding-bottom: 2.5rem; 
+  }
+  
+  .hyphen-img-container {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hyphen-img{
+    width: 80%;
+    margin-top: -33%;
+    margin-left: 10%;
+  }
+  
+  @media (max-width: 768px) {
+    .hyphen-container {
+      padding-bottom: 1rem;
+    }
+    
+    .hyphen-img-container {
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .hyphen-img {
+      width: 100%;
+      margin-top: -10%;
+      margin-left: 0;
+    }
+  }

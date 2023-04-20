@@ -7,11 +7,43 @@
   padding: 3rem 0 0 3.5rem; /* Sets padding instead of margin */
   max-width: 100%;
   overflow-x: hidden;
+  
 }
+
+
 
 .invasive-modification-body {
   background-color: #080808;
 }
+
+.background-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.background-img {
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+ 
+  opacity: 0.5;
+  
+}
+
 
 /* .kidsofthepinktrash-body{
   background-image: url('../../imgs/march32.png');

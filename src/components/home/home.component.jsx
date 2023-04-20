@@ -1,11 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import './home.styles.css';
 import { Link, Outlet, useLocation } from 'react-router-dom';
+import backgroundVideo from '../../video/background-video.mp4';
+import backgroundImg from '../../imgs/background-img.png';
 
 
 
 const Home = () => {
   const [isMobileMenuVisible, setIsMobileMenuVisible] = useState(false);
+  const [showBackground, setShowBackground] = useState(false);
   const location = useLocation(); // import useLocation hook from react-router-dom
 
   const toggleMobileMenu = () => {
@@ -19,6 +22,7 @@ const Home = () => {
     } else {
       body.classList.remove('invasive-modification-body');
     }
+    setShowBackground(location.pathname === '/hyphen');
   }, [location.pathname]);
 
   // useEffect(() => {
@@ -32,6 +36,25 @@ const Home = () => {
 
   return (
     <div className="home-container">
+       {showBackground && (
+        <div className="background-container">
+           <video
+      className='background-video'
+        id="fullscreen-video"
+        src={backgroundVideo}
+        style={{ position: 'absolute',  width: '100%', height: '100%', objectFit: 'cover' }}
+        autoPlay
+        loop
+        muted
+      />
+      <img
+      className='background-img'
+        src={backgroundImg}
+        alt="background"
+        style={{ position: 'absolute',  width: '100%', height: '160%', opacity: 0.4, objectFit: 'cover' }}
+      />
+        </div>
+      )}
       <h1 className="title">
         <Link to="/" className="title-link">
           DACHI-GIORGI GARUCHAVA
