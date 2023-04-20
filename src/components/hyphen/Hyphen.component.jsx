@@ -1,4 +1,3 @@
-import React, { useEffect } from "react";
 import hyphenImg from "../../imgs/hyphenImg.png";
 import './Hyphen.styles.css';
 

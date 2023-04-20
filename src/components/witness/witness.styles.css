@@ -5,6 +5,7 @@
   max-width: 100%;
   margin: -18.875rem 0 0 10.625rem;
   margin-bottom: 2rem;
+  margin-right: 1.5rem;
   
 }
 
@@ -21,7 +22,7 @@
 }
 
 .witness-text1 {
-  margin-top: 0.938rem;
+  margin-top: -0.5rem;
   font-size: 0.938rem;
   font-weight: normal;
   width: 100%;
@@ -120,19 +121,40 @@
 
 }
 
-@media only screen and (min-width: 1920px) {
+@media only screen and (max-width: 768px) {
   .witness-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    margin: 0;
+    margin-bottom: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .witness-container {
     max-width: 80%;
     margin: -18.875rem 0 0 10.625rem;
     margin-bottom: 2rem;
-    
   }
-  
-  
-  
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+  .witness-container {
+    max-width: 70%;
+    margin: -18.875rem 0 0 10.625rem;
+    margin-bottom: 2rem;
+  }
+}
+
+
+
+@media only screen and (min-width: 1921px) {
+  .witness-container {
+    max-width: 50%;
+    margin: -18.875rem 0 0 10.625rem;
+    margin-bottom: 2rem;
+  }
+
   .witness-texts {
     display: flex;
     flex-direction: column;
@@ -144,7 +166,7 @@
   }
   
   .witness-text1 {
-    margin-top: 0.938rem;
+    margin-top: -0.5rem;
     font-size: 0.938rem;
     font-weight: normal;
     width: 100%;
@@ -165,12 +187,9 @@
   }
   
   .video{
-    margin-left: 5.5%;
+    margin-left: 6.25rem;
     margin-top:  0.938rem;
   }
-  
-  
-  
   
   .video-caption {
     margin: 0.3rem 0 0;
@@ -178,7 +197,7 @@
     font-size: 12px;
     font-weight: normal;
     align-self: flex-end;
-    margin-right: 0.5%;
+    margin-right: 35.5px;
   }
   
   .video-caption2 {
@@ -187,8 +206,7 @@
     font-size: 12px;
     font-weight: normal;
     align-self: flex-end;
-    margin-right: 0.5%;
+    margin-right: 35.5px;
     
   }
-  
 }
