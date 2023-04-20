@@ -51,13 +51,15 @@ const Home = () => {
           <li><Link to='/STEPS' className={location.pathname === '/STEPS' ? 'project-link current-page' : 'project-link'}>STEPS</Link></li>
           <li><Link to='/hyphen' className={location.pathname === '/hyphen' ? 'project-link current-page' : 'project-link'}>Hyphen</Link></li>
           <li><Link to='/i-need-protection' className={location.pathname === '/i-need-protection' ? 'project-link current-page' : 'project-link'}>I Need Protection</Link></li>
+          <li><Link to='/obj' className={location.pathname === '/obj' ? 'project-link current-page' : 'project-link'}>.OBJ</Link></li>
           <li><Link to='/french-lessons' className={location.pathname === '/french-lessons' ? 'project-link current-page' : 'project-link'}>French Lessons</Link></li>
           <li><Link to='/kidsofthepinktrash' className={location.pathname === '/kidsofthepinktrash' ? 'project-link current-page' : 'project-link'}>Kids of the Pink Trash</Link></li>
-          <li><Link to='/bulbosa' className={location.pathname === '/bulbosa' ? 'project-link current-page' : 'project-link'}>Bulbosa</Link></li>
-          <li><Link to='/tide' className={location.pathname === '/tide' ? 'project-link current-page' : 'project-link'}>Tide</Link></li>
+          <li><Link to='/garbage-throne' className={location.pathname === '/garbage-throne' ? 'project-link current-page' : 'project-link'}>Garbage Throne</Link></li>
+          <li><Link to='/broken-city' className={location.pathname === '/broken-city' ? 'project-link current-page' : 'project-link'}> Broken City</Link></li>
+          <li><Link to='/dead-vase' className={location.pathname === '/dead-vase' ? 'project-link current-page' : 'project-link'}> Dead Vase</Link></li>
           <li><Link to='/in-luce-side' className={location.pathname === '/in-luce-side' ? 'project-link current-page' : 'project-link'}>in Luce Side</Link></li>
           <li><Link to='/psr' className={location.pathname === '/psr' ? 'project-link current-page' : 'project-link'}>PSR</Link></li>
-          <li><Link to='/barbed-wire' className={location.pathname === '/barbed-wire' ? 'project-link current-page' : 'project-link'}>Barbed wire</Link></li>
+          
         </ul>
       </div>
       <Outlet />
@@ -66,3 +68,4 @@ const Home = () => {
 };
 
 export default Home;
+

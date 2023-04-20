@@ -1,0 +1,200 @@
+.broken-city-container{
+    max-width: 100%;
+    margin-right: 1.5rem;
+ }
+ 
+ .text1{
+     color: #484848;
+     font-weight: normal;
+     font-size: 1.25rem;
+     margin-top: -23.5%;
+     margin-left: 14%;
+     display: flex;
+     flex-direction: column;
+     width: 70%;
+     
+ }
+ 
+ .broken-city-header{
+     color: #484848;
+     font-weight: normal;
+     font-size: 1.25rem;
+     margin-bottom: 0.7rem;
+     
+ }
+ 
+ .text1-subtext{
+     color: #484848;
+     font-weight: normal;
+     font-size: 1rem;
+     margin-top: 0.7rem;
+     width: 120%;
+ }
+ 
+ .brokenimg1-container{
+     max-width: 100%;
+ }
+ 
+ .brokenimg1{
+     width: 84%;
+     margin-left: 14%;
+     margin-top: 0.5%;
+ }
+ 
+ .text2 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-right: 2rem;
+  }
+ 
+ .broken-city-header2{
+     color: #484848;
+     font-weight: normal;
+     font-size: 1.25rem;
+     margin-left: 115%;
+     margin-top: 11%;
+     width: 70%;
+     margin-bottom: 1rem;
+     
+ }
+
+ .text2-subtext{
+    color: #484848;
+     font-weight: normal;
+     font-size: 1rem;
+     width: 100%;
+     text-align: end;
+     margin-left: 70%;
+     margin-top: 0.9rem;
+ }
+ 
+ .brokenimg3 {
+    width: 100%;
+    margin-top: -20%;
+    margin-left: 60%;
+   
+    
+  }
+ 
+  .brokenimg2 {
+    
+    width: 100%;
+    margin-top: -136%;
+    margin-left: 290%;
+  }
+ 
+ .text3{
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+     text-align: right;
+     margin-top: 5%;
+     text-align: left;
+     
+     
+ }
+ 
+ .broken-city-header3{
+     color: #484848;
+     font-weight: normal;
+     font-size: 1.25rem;
+     margin-left: 15%;
+     
+ }
+ 
+ .text3-subtext{
+     color: #484848;
+     font-weight: normal;
+     font-size: 1rem;
+     margin-top: 0.7rem;
+     width: 85%;
+     margin-left: 15%;
+     margin-right: 1rem;
+ }
+ 
+ .bottom-img-container{
+     width: 100%;
+ }
+ 
+ .brojenimg4{
+     width: 100%;
+     margin-left: 4%;
+ }
+ 
+ 
+ @media screen and (max-width: 768px) {
+     .broken-city-container {
+       margin-right: 0;
+       margin-left: 0;
+     }
+   
+     .text1 {
+       margin-left: 0;
+       width: 100%;
+       margin-top: 1rem;
+     }
+   
+     .broken-city-header {
+       font-size: 1.5rem;
+       margin-top: 0;
+     }
+   
+     .text1-subtext {
+       width: 100%;
+       margin-top: 0.5rem;
+       font-size: 0.9rem;
+     }
+   
+     .brokenimg1 {
+       width: 100%;
+       margin-left: 0;
+       margin-top: 1rem;
+     }
+   
+     .text2 {
+       width: 100%;
+       margin-left: 0;
+       
+       text-align: left;
+     }
+   
+     .broken-city-header2 {
+       font-size: 1.5rem;
+       
+     }
+   
+     .brokenimg3 {
+       position: static;
+       width: 100%;
+       margin-top: 1rem;
+     }
+   
+     .brokenimg2 {
+       position: static;
+       width: 100%;
+       margin-top: 1rem;
+     }
+   
+     .text3 {
+       margin-top: 1rem;
+     }
+   
+     .broken-city-header3 {
+       font-size: 1.5rem;
+     }
+   
+     .text3-subtext {
+       font-size: 0.9rem;
+     }
+   
+     .brojenimg4 {
+       width: 100%;
+       margin-top: 1rem;
+     }
+   }
+   
+ 

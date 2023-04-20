@@ -42,7 +42,7 @@ const InsasiveModification = () => {
         <div className='img-wrapper'>
           <img src={img1} alt='img1' className='img1' />
           <h2 className='video-text'>
-            Translating the language at the core of the brands world through
+            Translating language at the core of brands world through
             artefacts within the current realm
           </h2>
           <ReactPlayer
@@ -104,3 +104,4 @@ const InsasiveModification = () => {
 };
 
 export default InsasiveModification;
+
