@@ -22,12 +22,13 @@
     flex-direction: column;
     width: 30%;
     margin-top: -90%;
-    margin-left: 70%;
+    margin-left: 78%;
     text-align: end;
 }
 
 .obj-text1-container p{
     margin-bottom: 2rem;
+    
 }
 
 .obj-text1-container span{
@@ -47,7 +48,7 @@
     color: #484848;
     font-weight: normal;
     font-size: 1.25rem;
-    margin-left: 204%;
+    margin-left: 205%;
     margin-top: -137%;
     margin-bottom: -2%;
    
@@ -71,7 +72,7 @@
     color: #484848;
     font-weight: normal;
     font-size: 1.25rem;
-    margin-left: 8.5%;
+    margin-left: 8.6%;
 }
 
 .obj-img3{
@@ -172,3 +173,119 @@
       margin-top: 1rem;
     }
 }  
+
+@media only screen and (min-width: 1920px){
+  .obj-container{
+    pointer-events: none;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 1rem;
+    
+}
+
+.obj-img1-container{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-top: -23%;
+    margin-left: -6%;
+}
+
+.obj-text1-container{
+    color: #484848;
+     font-weight: normal;
+     font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-top: -72%;
+    margin-left: 83%;
+    text-align: end;
+}
+
+.obj-text1-container p{
+    margin-bottom: 2rem;
+    
+}
+
+.obj-text1-container span{
+    display: block;
+    margin-top: -0.1rem;
+}
+
+.obj-img2-container{
+   display: flex;
+   flex-direction: column;
+   width: 30%;
+   
+   
+}
+
+.obg-img2-header{
+    color: #484848;
+    font-weight: normal;
+    font-size: 1.25rem;
+    margin-left: 211%;
+    margin-top: -122%;
+    margin-bottom: 1.5%;
+   
+}
+
+.obj-img2{
+    width: 160%;
+    margin-left: 180%;
+    margin-top: -20%;
+    
+
+}
+
+.obj-img3-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.obg-img3-header{
+    color: #484848;
+    font-weight: normal;
+    font-size: 1.25rem;
+    margin-left: 8.6%;
+    margin-bottom: -6%;
+}
+
+.obj-img3{
+    width: 40%;
+    margin-top: 2%;
+    margin-left: 4%;
+}
+
+.obj-text3{
+    color: #484848;
+    font-weight: normal;
+    font-size: 1rem;
+    text-align: start;
+    width: 38%;
+    margin-left: 8.4%;
+}
+
+.obj-text3-part2{
+    color: #484848;
+    font-weight: normal;
+    font-size: 1rem;
+    text-align: start;
+    width: 45%;
+    margin-left: 8.4%;
+}
+
+.obg-last-imgs-contaiener{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+}
+
+.obj-img4{
+    width: 45%;
+    margin-top: -65%;
+    margin-left: 32%;
+}
+}

@@ -6,10 +6,7 @@
   margin: -18.875rem 0 0 10.625rem;
   margin-bottom: 2rem;
   margin-right: 1.5rem;
-  
 }
-
-
 
 .witness-texts {
   display: flex;
@@ -42,13 +39,10 @@
   align-items: center;
 }
 
-.video{
-  margin-left: -1.25rem;
-  margin-top:  0.938rem;
+.video {
+  margin-left: -1rem;
+  margin-top: 0.938rem;
 }
-
-
-
 
 .video-caption {
   margin: 0.3rem 0 0;
@@ -66,20 +60,17 @@
   font-weight: normal;
   align-self: flex-end;
   margin-right: 35.5px;
-  
 }
 
 @media (max-width: 768px) {
-
   body {
-    background-color: #DBDBDBE2;
+    background-color: #dbdbdbe2;
   }
   .witness-container {
     margin: 0;
     margin-bottom: 50px;
     margin-right: 10px;
     margin-left: 10px;
-    
   }
 
   .witness-texts {
@@ -102,7 +93,7 @@
     font-size: 14px;
     margin-right: 0;
   }
-  
+
   .title {
     font-size: 26px; /* set font size for title on mobile */
     margin-left: 4px;
@@ -115,44 +106,23 @@
     align-items: flex-start;
     margin-bottom: 8px; /* add margin bottom for spacing on mobile */
   }
-
- 
-  
-
 }
 
-@media only screen and (max-width: 768px) {
-  .witness-container {
-    margin: 0;
-    margin-bottom: 50px;
-    margin-right: 10px;
-    margin-left: 10px;
-  }
+@media screen and (min-width: 1280px) and (max-width: 1366px) {
 }
 
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+
+
+@media (min-width: 1920px) {
   .witness-container {
-    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
     margin: -18.875rem 0 0 10.625rem;
     margin-bottom: 2rem;
-  }
-}
-
-@media only screen and (min-width: 1025px) and (max-width: 1440px) {
-  .witness-container {
-    max-width: 70%;
-    margin: -18.875rem 0 0 10.625rem;
-    margin-bottom: 2rem;
-  }
-}
-
-
-
-@media only screen and (min-width: 1921px) {
-  .witness-container {
-    max-width: 50%;
-    margin: -18.875rem 0 0 10.625rem;
-    margin-bottom: 2rem;
+    margin-right: 1.5rem;
   }
 
   .witness-texts {
@@ -164,14 +134,14 @@
     letter-spacing: 0px;
     /* padding-right: 0.5rem; */
   }
-  
+
   .witness-text1 {
     margin-top: -0.5rem;
     font-size: 0.938rem;
     font-weight: normal;
     width: 100%;
   }
-  
+
   .witness-text2 {
     margin-top: 0.7rem;
     width: 100%;
@@ -179,27 +149,27 @@
     font-weight: normal;
     line-height: 1.5;
   }
-  
+
   .video-container {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  
-  .video{
-    margin-left: 6.25rem;
-    margin-top:  0.938rem;
+
+  .video {
+    margin-left: -5%;
+    margin-top: 0.938rem;
   }
-  
+
   .video-caption {
     margin: 0.3rem 0 0;
     text-align: center;
     font-size: 12px;
     font-weight: normal;
     align-self: flex-end;
-    margin-right: 35.5px;
+    margin-right: 5.2%;
   }
-  
+
   .video-caption2 {
     margin: 0;
     text-align: center;
@@ -207,6 +177,6 @@
     font-weight: normal;
     align-self: flex-end;
     margin-right: 35.5px;
-    
+    margin-right: 5.2%;
   }
 }

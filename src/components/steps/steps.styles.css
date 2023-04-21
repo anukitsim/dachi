@@ -3,7 +3,7 @@
 .steps-container {
     position: relative;
     max-width: 100%;
-    margin: -17.813rem 0 0 10.313rem;
+    margin: -19.1rem 0 0 10.313rem;
     margin-bottom: 45px;
 }
 
@@ -18,7 +18,7 @@
 .steps-caption1 {
     font-size: 0.75rem;
     font-weight: normal;
-    padding-left: 2.7rem;
+    padding-left: 2.2rem;
     color: #646060;
 
     
@@ -28,7 +28,7 @@
 .steps-caption2 {
     font-size: 0.75rem;
     font-weight: normal;
-    padding-right: 2.7rem;
+    padding-right: 2.2rem;
     color: #646060;
     
     
@@ -111,3 +111,5 @@
             color: #646060;
         }
       }
+
+    

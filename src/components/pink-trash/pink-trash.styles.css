@@ -1,7 +1,7 @@
 .pink-trash{
     width: 120%;
     height: auto;
-    margin-top: -33%;
+    margin-top: -35%;
     margin-left: -15%;
     pointer-events: none;
 }
@@ -15,6 +15,16 @@
         margin-left: -15%;
         pointer-events: none;
     }
+  }
+
+  @media screen and (min-width: 1280px) and (max-width: 1366px){
+    .pink-trash{
+      width: 120%;
+      height: auto;
+      margin-top: -40%;
+      margin-left: -15%;
+      pointer-events: none;
+  }
   }
 
  
