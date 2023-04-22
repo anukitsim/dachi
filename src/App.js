@@ -35,7 +35,7 @@ const App = () => {
           <Route path="i-need-protection" element={<Protection />} />
           <Route path="obj" element={<Obj />} />
           <Route path="french-lessons" element={<FrenchLessons />} />
-          <Route path="kidsofthepinktrash" element={<PinkTrash />} />
+          <Route path="march32" element={<PinkTrash />} />
           <Route path="garbage-throne" element={<Garbage />} />
           <Route path="broken-city" element={<BrokenCity />} />
           <Route path="dead-vase" element={<DeadVase />} />
